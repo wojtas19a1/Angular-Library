@@ -1,0 +1,14 @@
+<div id="content">
+  <div class="row" id="menu">
+    <div class="col-4">Tytuł filmu</div>
+    <div class="col-4">Autor</div>
+    <div class="col-2">Edytuj</div>
+    <div class="col-2">Usuń</div>
+  </div>
+  <div *ngFor="let book of results" class="row">
+    <div class="col-4">{{book.title}}</div>
+    <div class="col-4">{{book.author}}</div>
+    <div class="col-2"><a href="http://localhost:4200/editbook"><button id="{{book.id}}" title="{{book.title}}" name="{{book.author}}" (click)="edit($event)">Edytuj</button></a></div>
+    <div class="col-2"><button id="{{book.id}}" (click)="delete($event)">Usuń</button></div>
+  </div>
+</div>

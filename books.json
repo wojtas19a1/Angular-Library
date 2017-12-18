@@ -1,0 +1,24 @@
+{
+  "books": [
+    {
+      "title": "Piesn Lodu i Ognia",
+      "author": "R.R. Martin",
+      "id": "1"
+    },
+    {
+      "title": "Pan Tadeusz",
+      "author": "Adam Mickiewicz",
+      "id": "2"
+    },
+    {
+      "title": "Harry Potter i Czara Ognia",
+      "author": "Rowling",
+      "id": "3"
+    },
+    {
+      "title": "Wiedzmin",
+      "author": "Andrzej Sapkowski",
+      "id": "4"
+    }
+  ]
+}

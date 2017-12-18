@@ -1,0 +1,6 @@
+<div class="row" id="editdiv">
+  <div class="col-6"><input value="{{title}}" (input)="changetitle($event)" placeholder="Podaj nowy tytuł"></div>
+  <div class="col-6"><input value="{{author}}" (input)="changeauthor($event)" placeholder="Podaj nowego autora"></div>
+  <div class="col-12"><button id="{{bookid}}" title="{{title}}" name="{{author}}"  (click)="edit($event)">Powrot</button></div>
+</div>
+
